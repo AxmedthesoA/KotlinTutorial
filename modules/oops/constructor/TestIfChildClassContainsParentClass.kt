@@ -1,11 +1,11 @@
 
 
 
-//here the Human() and the owner of Human.Pet() has same address so...Pet(0 constructor specially takes
+//here the Human() and the owner of Human.Pet() has same address so...Pet() constructor specially takes
 //its parents as argument for sure....
-//For more consise evidence I did remove the first element of the list of the Human() object
-//that was taken as argument....and after that I found
-//owner variable has such value that doesn,t contain the default first elements...
+//For more concise evidence I did remove the first element of the list of the Human() object
+//that was taken as an argument of Pet()....and after that I found
+//owner object has such list that doesn't contain the default first elements it was suppossed to contain...
 //simply means it was removed somehow....so it is now evident
 //that owner variable and the Human() object is same.....
 
